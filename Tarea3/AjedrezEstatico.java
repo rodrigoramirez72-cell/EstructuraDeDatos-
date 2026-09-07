@@ -17,8 +17,6 @@ public class AjedrezEstatico {
       mesa.poner(7, j, blancas[j]); // piezas principales blancas
     }
 
-    String etiquetas = "  a b c d e f g h";
-    System.out.println(etiquetas);
     for (int i = 0; i < DIMENSION; i++) {
       System.out.print((DIMENSION - i) + " ");
       for (int j = 0; j < DIMENSION; j++) {
@@ -27,6 +25,5 @@ public class AjedrezEstatico {
       }
       System.out.println(DIMENSION - i);
     }
-    System.out.println(etiquetas);
   }
 }
